@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: start4
+  m_EditorClassIdentifier: 
+  name_: start4
+  source: 0
+  text_writer: {fileID: 0}
+  text: '<O lamp/> I wonder if someone will steal it if it stays outside the door
+    like this. <O lamp/> It''s been days and it''s still standing there.
+
+    But
+    again, everyone''s shut in nowadays, I guess the thieves have <B>hygiene</B>
+    as well. <O lamp/>
+
+    Should I let it in? <H>Does it even know how to get in?</H>
+
+    I
+    guess I''ll just <O lamp/> wait some more, then. <O npc random/>
+
+    Well, okay,
+    not just waiting, I can do some practice. Let''s see... there''s this pronunciation
+    thing I learned back then, I think I still remember it:
+
+    Once upon a time,
+    there was a young rat named Arthur who couldn''t make up his mind. <O lamp/>
+
+    Whenever
+    the other rats asked him if he would go out with them, he would say, "I don''t
+    know."
+
+    And when they said, "Would you rather stay inside?" <O lamp/>
+
+    He
+    wouldn''t say yes or no either. He never wanted to make a choice. <H>Hmm... this
+    reads awfully like what we''re in right now... </H>
+
+    One fine day, <O lamp/>
+    his aunt appealed to him... <O npc random/>
+
+    <H>Did it make a noise? (the
+    A4, I mean, not the aunt) I think I heard something, some metallic sound. Let
+    me check outside...</H> <O lamp/>
+
+    Huh... it''s... moving...? I can''t tell
+    what gesture it''s making--looks like it''s... happy? <O lamp/> Excited? Agitated?
+    I remember they said it''ll give me feedback--is this what they were talking
+    about?
+
+'
+  previous: start3
+  next:
+  - keep waiting start5
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}
+  slope_min_max: {x: -0.2, y: 0.2}

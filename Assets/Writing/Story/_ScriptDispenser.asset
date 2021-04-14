@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0008e10d94636dd4b9fb5b9bf66bc473, type: 3}
+  m_Name: _ScriptDispenser
+  m_EditorClassIdentifier: 
+  init_scripts:
+  - {fileID: 11400000, guid: 95a78729aee99b642849b98cac0b8d1d, type: 2}
+  - {fileID: 11400000, guid: 62bdc81d2fce9284294104f40c734078, type: 2}
+  - {fileID: 11400000, guid: 563779673f94cd04c9ec784b842edd2c, type: 2}
+  main_menus:
+  - {fileID: 11400000, guid: b95317c20703c0f43b4c373b8fadfae5, type: 2}
+  - {fileID: 11400000, guid: dc26a9c2c672bd1499b9f09fa610158c, type: 2}
+  - {fileID: 11400000, guid: dce20a500c7de4d4e91665b5d34a8efa, type: 2}
+  - {fileID: 11400000, guid: f445a75969c0a804b9fd2c3c2c4ee970, type: 2}
+  tutorial: {fileID: 11400000, guid: 62bdc81d2fce9284294104f40c734078, type: 2}
+  load_mode: 1

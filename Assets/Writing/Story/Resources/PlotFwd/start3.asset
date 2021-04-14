@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: start3
+  m_EditorClassIdentifier: 
+  name_: start3
+  source: 0
+  text_writer: {fileID: 0}
+  text: "Due to recent circumstances, we have been developing a new mode of work
+    to engage talented individuals like you in our creative process. \r<O lamp/>\nInstead
+    of auditioning, casting, and recording your performances face to face, the new
+    work flow would be fully remote, utilizing our state of the arts technologies.\r
+    <O lamp/>\nAlong with the script itself, you will receive an <B>automatic audiomotive
+    augmented audience</B> (short as A4)\u2014<O lamp/> one of our newest inventions\u2014that
+    records your performance and provides live feedback.\r <O lamp/>\nInstead of
+    performing short segments for casting, you will narrate the entire script to
+    the A4 in the span of a week. <O npc random/>\r<O lamp/>\nThen, we will pick
+    favorable segments of your performance and mix it into the final product.\r<O
+    lamp/>\nRest assured, you will have more than one attempt at recording this,
+    so no need to be nervous. <O lamp/>The A4 will autonomously return to us at deadline--before
+    that, you can take as many attempts as you want to.\r<O lamp/>\nThank you for
+    your enthusiasm, and we look forward to \"hearing\" back from you!\r\n"
+  previous: start2
+  next:
+  - ... start4
+  music: {fileID: 11400000, guid: ff945d10d0f33fc47a07739786feb10f, type: 2}
+  background: {fileID: 2100000, guid: b26a14a6216a134488f6104a95adb720, type: 2}
+  slope_min_max: {x: 0, y: 0}

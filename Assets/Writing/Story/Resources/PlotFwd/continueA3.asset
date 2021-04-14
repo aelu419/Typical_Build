@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continueA3
+  m_EditorClassIdentifier: 
+  name_: continueA3
+  source: 0
+  text_writer: {fileID: 0}
+  text: "<O lamp/>The rain was quite boring, occasional drops broke into the unfinished
+    cocoon, and then just left...\r\nThe path was mostly washed off, and so the worm
+    never got to meet the rest of the \"ordinary, hardworking insects\".<O lamp/>\r\nA
+    bird--feathers damped and heavy--approached the cocoon, took some chances poking
+    at it, but couldn't get the worm out. <O npc random/>\r\nSuddenly, a non-sense
+    <B>idea</B> flashed <O lamp/> across its water-weighed head, and was immediately
+    approved by its decisional facility out of pure boredom.\r\n\"Will you please
+    come out,\" asked the bird, completely un-serious.\r\nThe worm had no idea how
+    to react, but thanks to an \"equal but opposite\" boredom, it decided to reply:
+    \"Why?\"\r\n\"Well, you see, what you're trying to do in this cocoon, I can help
+    you do it faster, and better.\"\r\n\"Wait what? <O lamp/> You're gonna help me
+    finish building this by... <I>eating me alive</I> That makes no sense at all.\"\r\n\"Oh
+    no, I don't mean this cocoon non-sense. I can help you on <I>your transformative
+    process</I> in general. See, after you finish building, do you know what exactly
+    happens? Like, sure, some <B>flyable thing</B> comes out of it eventually, but
+    would that be <B>you</B>? Would it <B>think</B> like you, or <B>feel</B> like
+    you?\" <O lamp/>\r\n\"Well, who else could it be?\"\r\n\"I've heard stories,
+    my friend. Some say you'll fall asleep and <I>another mind</I> takes over. You'll
+    know how to fly the instant you get out, but are you--the worm you--born with
+    that knowledge? <O lamp/> Or did anyone teach you to fly? The only explanation
+    is: this other spirit, who is born with flight knowledge, replaces yourself.
+    You're just dead.\" <O npc random/>\r\n\"Uhh... okay...? Still no reason to get
+    <I>out</I>, though.\" <O lamp/>\r\n\"Well, if you come out now, you'll soon become
+    <I>part of a flying creature</I>, aka <I>myself</I>: no tiring work wiggling
+    for days, no insomnia, no slow, lonely death. I guarantee wholeheartedly (and
+    stomachly) that the process will be <I>extremely fast</I>, and, therefore, <I>mostly</I>
+    painless. <O lamp/> Besides, this <I>alternative</I> flying creature gets to
+    last way longer and fly way higher than some random moth you'll get to be. ...
+    Basically: better product, better experience, better efficiency!\"\r"
+  previous: continueA2
+  next:
+  - what next? continueA4
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}
+  slope_min_max: {x: -0.3, y: 0.3}

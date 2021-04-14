@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0dc4b918692bc9439e5528902e2dda2, type: 3}
+  m_Name: _NPC Dispenser
+  m_EditorClassIdentifier: 
+  npcs:
+  - {fileID: 11400000, guid: 15a01dadf66786f41a7c394bee427737, type: 2}
+  - {fileID: 11400000, guid: 025d2e2f746b0744f94eccbe3512cb67, type: 2}
+  - {fileID: 11400000, guid: 98b0049ac63036240ac72444f5c52c83, type: 2}
+  - {fileID: 11400000, guid: 5963a5947fd3ce34cbc7e3afe7d716fa, type: 2}
+  - {fileID: 11400000, guid: 16ed6a6a47bdb6447b6d94bb06c08730, type: 2}
+  - {fileID: 11400000, guid: 2077255674f006742bc04e842296e285, type: 2}
+  - {fileID: 11400000, guid: 69d1149d64bc11d44887517810e5b660, type: 2}

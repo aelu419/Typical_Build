@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: pre_endless
+  m_EditorClassIdentifier: 
+  name_: pre_endless
+  source: 0
+  text_writer: {fileID: 0}
+  text: "Dear customer,\r\nWe want you to know that The Company always strives for
+    the best quality for its products.\r\nBut sadly, due to the recent pandemic impacting
+    our work environment, the quality of <B>Typical</B> has yet to match the standards
+    we deem to be <I>presentable</I> to the wider audience.\r\nInstead of speeding
+    through the production process, we have decided to delay the release of the game
+    until later this year.\r\nAgain, thank you so much for your interest in our creative
+    endeavors, and we sincerely apologize for the delay.\r\n... As an alternative,
+    we have decided to give you one month of free trial for our newest, experimental,
+    endless narration service.\r\nThis new service fuses creativity with the endless
+    power of computation using our newly developed, <B>automated narrator</B> ...
+    (the ad speech goes on until the terms and conditions began, which, of course,
+    will be skipped) ... \r\n"
+  previous: continue_end
+  next:
+  - _endless
+  music: {fileID: 11400000, guid: ff945d10d0f33fc47a07739786feb10f, type: 2}
+  background: {fileID: 2100000, guid: b26a14a6216a134488f6104a95adb720, type: 2}
+  slope_min_max: {x: 0, y: 0}

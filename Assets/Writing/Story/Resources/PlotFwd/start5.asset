@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: start5
+  m_EditorClassIdentifier: 
+  name_: start5
+  source: 0
+  text_writer: {fileID: 0}
+  text: "<O lamp/> Yesterday was so weird. Why would the thing start moving all of
+    a sudden?\r <O lamp/>\nDid it hear what I was saying?\r\n<H>But shouldn't it
+    only react to the actual story?</H> And when I went back to practicing, I think
+    I heard it moving while I spoke. <O npc random/>\r\nLet me try again... <O lamp/>
+    see if it still reacts... I think this is where I left off yesterday:\r\nThe
+    old rat caught sight of young Arthur, who wasn't in the line, and wasn't exactly
+    outside it. <O lamp/> He stood just nearby, hesitating. \"You are coming too,
+    aren't you?\" Asked the old rat. \"I don't know,\" said Arthur calmly, \"I'm
+    not certain, the roof may not fall down yet.\" ...\r <O lamp/>\nHere it is again!
+    That sound! And it's moving again, how perfectly un-strange! Damn it, why...
+    what... why? Does it not care about what I say? <O npc random/>\r\nIt's almost
+    deadline right, or is it deadline already? Is it returning to The Company?\r
+    <O lamp/>\nBut I haven't even started yet!\n...\nWhat to DO...\n... <O lamp/>\nThey
+    can't just...\nI mean-- Um... Uh...\n<H>What should I do?? It's not giving me
+    any chance isn't it... Like it's... ... ... </H> \r\nOh... <O lamp/> I know what
+    to do, I've got this PERFECT story I've been wanting to tell <I>all this time</I>,
+    and since they're not giving me the script, I'll read <I>that</I> instead! They'll
+    <I>love</I> <O lamp/> it so much, just like what I feel for their non-existent
+    <I>masterpiece</I>"
+  previous: start4
+  next:
+  - tell the story continueA1
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}
+  slope_min_max: {x: -0.3, y: 0.3}

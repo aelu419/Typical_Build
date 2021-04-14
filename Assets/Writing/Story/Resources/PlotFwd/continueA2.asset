@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continueA2
+  m_EditorClassIdentifier: 
+  name_: continueA2
+  source: 0
+  text_writer: {fileID: 0}
+  text: "<O lamp/> The ant was like someone with a slightly morbid obsession over
+    wearing uniforms and waking up early. <O lamp/>\r\nApparently, on that day, the
+    worm was building its cocoon over the ant's path, which was carefully marked
+    with scent so the other ants could follow by tracing, all the way to some insect
+    corpse up on the canopy, waiting to be taken apart and fed to the larvae. <O
+    lamp/>\r\nThe rainclouds have gathered to a sheet that somewhat blocked the sun.
+    Although the cocoon was in already shielded by the canopy, an extra bit of coolness
+    doesn't harm.\r <O lamp/>\nIt was then that the ant approached and formally complained
+    about the blockage.\r <O lamp/>\nThe worm didn't really hear it, though, since
+    it was still on autopilot--it kept on working, and working, and working.\r <O
+    lamp/>\nEventually, the ant grew grumbly and ditched its professional mannerisms,
+    stepping right through one of the larger holes (the cocoon was still quite sparse
+    at the time) and shouted, \r\n\"Can you please get your fat ass off the way!
+    \r<O lamp/>\nCan't you see that ordinary, hardworking insects like me are using
+    this path? <O lamp/>\r\nAnd you just lay here like it's all just <B>nothing</B>?\r
+    <O lamp/>\nHow much effort do you think I put into this--<I>hell</I>, do you
+    even know what effort is? <O lamp/> Have you worked a <B>day</B> of your life?
+    You just know how to eat, and eat, and when you stop eating you just cause <B>trouble</B>!\"
+    <O lamp/><O npc random/><O lamp/><O lamp/>\nBy the time the worm shifted off
+    of auto pilot, it noticed a bite mark on its stomach (maybe that's what caused
+    it to wake up in the first place).\r\nThe ant was gone, frustrated, worm-goo
+    dripping off its teeth. <O lamp/>\r\n"
+  previous: continueA1
+  next:
+  - then it rained continueA3
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}
+  slope_min_max: {x: -0.3, y: 0.3}

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190373802c45e524cac073a7ca3bae5f, type: 3}
+  m_Name: credits
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 0662b90caa58aa84c9106b05fcc552c8, type: 3}
+  segments:
+  - name: 
+    script: 'Execuse me sir?
+
+      Would you like to know the names of our creators?
+
+      It
+      would take just a short moment:
+
+      Writing & Programming: Alan Tao
+
+      Illustrations:
+      Aparna Arul
+
+      Music: Isaiah McElvain
+
+      User Interface: Tamjid Hossain
+
+      Resources:
+
+      Averia
+      font by Dan Sayers
+
+      sounds from Freesound.org
+
+      made with the Unity
+
+      Special
+      Thanks:
+
+      Yoon Bird (as well as his other forms)
+
+      Fellow team leads
+      and officers at VGDev
+
+      and YOU!
+
+      (the YOU still remains a mystery
+      for me)
+
+      (the scripture mentions this YOU in all caps)
+
+      (should
+      I just give the creators'' thanks to random people on the road?)
+
+      ...
+      I wish you well on your journey,
+
+      Although if you are interested in how
+      and why our world was created,
+
+      ...
+
+      [he preaches on]'
+  randomize: 0

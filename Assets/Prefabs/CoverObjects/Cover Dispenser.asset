@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4672c37feec57c5498fa9ff4995f4c28, type: 3}
+  m_Name: Cover Dispenser
+  m_EditorClassIdentifier: 
+  cover_objects:
+  - {fileID: 11400000, guid: d6a2221ed4b6fe844a3d18e7678a7590, type: 2}
+  - {fileID: 11400000, guid: d2afb1aed0705ce4882c193e35968575, type: 2}
+  - {fileID: 11400000, guid: f6254ec80f18af545944ed3e8f636730, type: 2}
+  - {fileID: 11400000, guid: 083af3ad3e4678545b618972b50c463e, type: 2}
+  - {fileID: 11400000, guid: 70d70bf68434a1549bd4a6a4878ba6ef, type: 2}
+  - {fileID: 11400000, guid: ec6f6fe07839c644e8b8a7be35a49bfb, type: 2}
+  - {fileID: 11400000, guid: f0f3996036861af47b13f178d59ea677, type: 2}
+  - {fileID: 11400000, guid: 63dee18aa590d97439a808c7fb5652b4, type: 2}

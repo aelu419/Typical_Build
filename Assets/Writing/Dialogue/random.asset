@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190373802c45e524cac073a7ca3bae5f, type: 3}
+  m_Name: random
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 458eea1a56e39fe419cdfe460dd4b4f6, type: 3}
+  - {fileID: 21300000, guid: 79677c1b9cf14e44093102460b4159a4, type: 3}
+  - {fileID: 21300000, guid: f8ce76ab204bbcb4eb04429e8d239a6a, type: 3}
+  - {fileID: 21300000, guid: 093e43b3f4ff0e84a943c30c32211c9e, type: 3}
+  - {fileID: 21300000, guid: dc9842dc519cbf94782de70c664c2f06, type: 3}
+  - {fileID: 21300000, guid: d50fe3127c6a1704d9e3a082273836ba, type: 3}
+  - {fileID: 21300000, guid: 823a07595706ef846843b641fa355824, type: 3}
+  - {fileID: 21300000, guid: 82b351fe33421de44b20e05b098b8baf, type: 3}
+  - {fileID: 21300000, guid: 3e4de7914e69d5f47b42ddc47285b38f, type: 3}
+  segments:
+  - name: 
+    script: What's he even talking about?
+  - name: 
+    script: Good stuff
+  - name: 
+    script: 'My hands are getting tired lmao
+
+      THUMBS DED
+
+      Why do you
+      have to hold space for so long???'
+  - name: 
+    script: What even is this
+  - name: 
+    script: 'What a deep and nuenced exporaton of the hunan conditon
+
+      10 out
+      of 10 wuold play again'
+  - name: 
+    script: 'i got stuck on the map for some reason
+
+      when i loaded the level
+      started from the beginning
+
+      i dun wanna keep typing anymore
+
+      bye'
+  - name: 
+    script: it's friday my dudes! happy friday!
+  - name: 
+    script: 'a quick brown fox jumps over the lazy dog
+
+      the dog then jumped
+      over the quick brown fox
+
+      and the quick brown fox jumps over the lazy
+      dog
+
+      and the dog jumped over the fox again
+
+      they went on
+
+      for
+      a long period of time
+
+      not forever
+
+      but like, a long period of
+      time
+
+      the above is better than the story of this game'
+  - name: 
+    script: 'lmao imagine reading but QWOP
+
+      this is that'
+  - name: 
+    script: 'still don''t get it
+
+      so like, the narrator talks to some robot
+      at his house?
+
+      but the robot also, like, walks on the text?
+
+      so
+      is the robot walking or not?'
+  - name: 
+    script: why am I still playing :/
+  - name: 
+    script: 'pretty sure there''s a better way to spend time
+
+      than typing somebody
+      else''s BS'
+  - name: 
+    script: 'oh god I think I overcooked something
+
+      let me go check the oven...'
+  - name: 
+    script: 'hey!
+
+      hi!
+
+      hello world!'
+  randomize: 1

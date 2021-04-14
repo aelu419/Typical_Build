@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continue_end
+  m_EditorClassIdentifier: 
+  name_: continue_end
+  source: 0
+  text_writer: {fileID: 0}
+  text: "<O lamp/>Why is it moving? <H>Like, actual moving, <I>translating</I>, <I>mobilizing</I>,
+    whatever--not gesturing, it's LEAVING!</H> No! Don't go! Come back!\r <O lamp/>\n...
+    ... <O npc random/>...\nSh*t... I think I broke it... ... ... what have I done...
+    <O npc random/>\r\nLet me just get it back up, see if it still walks... <O lamp/><H>it
+    most definitely does not... and the \"upper lid\" got off, I can see all the
+    insides...</H> wait, what's this booklet? <O lamp/> Could it be... <I>the script</I>?\r\n...
+    ... <O npc random/> ... ... ...\r\nWhy have I never thought of this...\r\nThey
+    even made it in the shape of a bin! And I never thought of checking inside it!\r
+    <O lamp/>\n<I>Of course</I> the script's inside it, <I>of course</I>, why would
+    it be <I>anywhere</I> else? <O lamp/>\r\nIf I start reading it now, would it
+    still count? <O lamp/> If this thing's got the intelligence to go back on its
+    own, I think it could tell that I'm starting the actual thing...\r\n\u2003\r\n"
+  previous: continueA4
+  next:
+  - read the script start1
+  - don't read it pre_endless
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}
+  slope_min_max: {x: 0, y: -0.5}

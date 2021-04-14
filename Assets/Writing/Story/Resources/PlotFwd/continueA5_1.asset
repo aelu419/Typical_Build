@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continueA5_1
+  m_EditorClassIdentifier: 
+  name_: continueA5_1
+  source: 0
+  text_writer: {fileID: 0}
+  text: And the worm replied... it replied... replied... <O lamp/> hell... what did
+    it reply? <O lamp/> What <I>would</I> it reply? How would I know? <I>I'm</I>
+    not a...
+  previous: continueA4
+  next:
+  - continue_end
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}
+  slope_min_max: {x: 0, y: 0.5}

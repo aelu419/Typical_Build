@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190373802c45e524cac073a7ca3bae5f, type: 3}
+  m_Name: tutorial
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 01168618a93ee1d468e5786221a5651e, type: 3}
+  segments:
+  - name: 1
+    script: 'Hi!
+
+      I''m here to guide you through the tutorial!
+
+      Now,
+      this game isn''t made for torturing your fingers...
+
+      Well, at least not
+      primarily.
+
+      You can progress as long as you type the right letter
+
+      Capitalization,
+      punctuation, and spacing can be ignored completely!
+
+      You can also go
+      back using BACKSPACE,
+
+      Although I''m not sure why there''s such a feature
+
+      I
+      mean... who wants to un-play a game?'
+  - name: 2
+    script: 'You may already know that SPACE toggles your light
+
+      Or not! And
+      that''s totally fine :)
+
+      You can use it to reveal hidden text
+
+      If
+      you can''t see the road ahead, use the light!'
+  - name: 3
+    script: 'ESC pauses the game
+
+      And that''s all of the normal controls
+
+      Now,
+      the game may glitch and you may get stuck,
+
+      We hope this doesn''t happen,
+      but just in case...
+
+      Try to save and reload if that happens.'
+  randomize: 0

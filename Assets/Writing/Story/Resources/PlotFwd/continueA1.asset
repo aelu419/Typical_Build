@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continueA1
+  m_EditorClassIdentifier: 
+  name_: continueA1
+  source: 0
+  text_writer: {fileID: 0}
+  text: 'Ha... <O lamp/> I actually kinda forgot how it went... <H>wrote it and rewrote
+    it so many times and now I can''t get a hold of it...</H> <O lamp/>
+
+    Oh,
+    yeah, right, it starts at afternoon... alright:
+
+    It was a summer afternoon.
+    Rain clouds were gathering on the distant horizon, but they weren''t tinted pink
+    yet, not with the sun up high. <O lamp/> <O npc random/>
+
+    There was a <B>silkworm</B>
+    knitting itself a cocoon. <O lamp/> The worm was absolutely <I>filled</I> with
+    chewed leaves, almost to the brink of bursting--the early months of its life
+    were just endless binge-eating, afterall. "Now it''s time to put it all to use,
+    I guess," it told itself. <O lamp/>
+
+    It dragged the silk to the left, stuck
+    it in place, fixed it steady, and started over to the right--then up, and down,
+    and left again. <O npc random/>
+
+    There was something of a frame already in
+    place, but it looked nothing like a cocoon.
+
+    The worm had been working on
+    it for <I>hours</I>, and the initial excitement for starting something life changing
+    (literally) was starting to wear off. <O lamp/>
+
+    It felt all the chewed leaves
+    tumbling in its stomach, making it <I>nauseated</I>, and the summer heat didn''t
+    help at all--the sun was like an overseer, not a motivator... <O lamp/> and the
+    repetitive work adds a layer of hypnosis on top of the nausea. <O lamp/>
+
+    As
+    the worm drilled the routine <O lamp/> into its subconscious: <I>left, right,
+    up, down</I>, it began to lose sight over what''s around it, <O lamp/> shifting
+    instead to a sort of "autopilot".
+
+'
+  previous: start5
+  next:
+  - and then... continueA2
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}
+  slope_min_max: {x: -0.3, y: 0.3}

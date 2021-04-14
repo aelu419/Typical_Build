@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: start2
+  m_EditorClassIdentifier: 
+  name_: start2
+  source: 0
+  text_writer: {fileID: 0}
+  text: "Why is it still there? Is the battery out? --it's still making noise, though,
+    and that light inside it...\r\nWas there a glitch in it somewhere? Some navigation
+    problem or whatever...\r\n<O lamp/>\r\nWhat even is going on? First that letter,
+    then this... <I>helmet-can-machine-thing</I>,\r\nwhat do they want from me?\r\nCan
+    it see, or hear? <O npc random/>\r\n<H>It's all a trick isn't it, just to see
+    me make myself look like a dumbass...\r\nI think I wasn't even qualified, they're
+    just trolling me with this...</H>\r\nLet me read the letter again, just to see
+    if I misread anything\r\n<H>Maybe it wasn't addressed to me at all!</H>\r\n:
+    <O lamp/>\r\nDear ..., Congratulations! You have been accepted as the narrator
+    for <I>Typical</I>, one of the 107 variations of our currently developing proto-game,
+    model <I><B>T</B></I>, specialized on focus group E7.\r\nWithin a few days, you
+    will receive the game's script... blah blah blah, nothing new ... \r\n<O lamp/>
+    <O npc random/>\r\n... wait... there's a back side?!\r\n"
+  previous: start1
+  next:
+  - the back side start3
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}
+  slope_min_max: {x: -0.4, y: 0.4}

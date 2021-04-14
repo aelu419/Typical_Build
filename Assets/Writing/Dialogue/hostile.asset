@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190373802c45e524cac073a7ca3bae5f, type: 3}
+  m_Name: hostile
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 657bac8c7c6abc04e89b029bfa9b0b45, type: 3}
+  - {fileID: 21300000, guid: c4425089c8fd27d4cb268abd06d648ba, type: 3}
+  - {fileID: 21300000, guid: e032f3b902e6ae946aaf0b6abc4b2693, type: 3}
+  - {fileID: 21300000, guid: 2bf630dbc90afb04e84f0ccca3deb7fa, type: 3}
+  - {fileID: 21300000, guid: 21fcac034ce1a4443923bd447d051fe6, type: 3}
+  - {fileID: 21300000, guid: bf4dc8d2b1d38444a90d30c62c9e00b3, type: 3}
+  - {fileID: 21300000, guid: 055f5401710aca140ae23ae40ef8162f, type: 3}
+  segments:
+  - name: 
+    script: Do Not Proceed
+  - name: 
+    script: Turn Back
+  - name: 
+    script: Your free trial will terminate if you go further
+  - name: 
+    script: STOP
+  - name: 
+    script: Please return to normal game flow
+  - name: 
+    script: 'Why would you delete your own progress?
+
+      Please go back'
+  - name: 
+    script: 'Why would you delete your own progress?
+
+      Please go back'
+  - name: 
+    script: 'GO RIGHT
+
+      One way only'
+  - name: 
+    script: You can always enter endless mode from the start screen
+  - name: 
+    script: 'loading tp: don''t use backspace'
+  randomize: 1

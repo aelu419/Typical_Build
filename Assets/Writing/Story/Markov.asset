@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0ec087f384b71449b7629b2ac49959, type: 3}
+  m_Name: Markov
+  m_EditorClassIdentifier: 
+  input: 'To be, or not to be, that is the question:
+
+    Whether ''tis nobler in
+    the mind to suffer
+
+    The slings and arrows of outrageous fortune,
+
+    Or
+    to take arms against a sea of troubles
+
+    And by opposing end them?
+
+    To
+    die: to sleep;
+
+    No more; and, by a sleep to say we end
+
+    The heart-ache
+    and the thousand natural shocks
+
+    That flesh is heir to, ''tis a consummation
+
+    Devoutly
+    to be wish''d. To die, to sleep;
+
+    To sleep: perchance to dream: ay, there''s
+    the rub;
+
+    For in that sleep of death what dreams may come
+
+    When we have
+    shuffled off this mortal coil,
+
+    Must give us pause.'

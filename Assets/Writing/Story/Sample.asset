@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: Sample
+  m_EditorClassIdentifier: 
+  name_: sample
+  source: 0
+  text_writer: {fileID: 0}
+  text: '123% Lorem <O npc sample/> <O img decoration1/> <O stump/> Ipsum hostile:
+    <O npc hostile/> random: <O npc random/> animated: <O npc walking1/> <O grass
+    /> x'
+  previous: _mainmenu
+  next:
+  - ... sample
+  music: {fileID: 0}
+  background: {fileID: 0}
+  slope_min_max: {x: 0, y: 0}

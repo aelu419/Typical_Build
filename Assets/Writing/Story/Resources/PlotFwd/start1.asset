@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: start1
+  m_EditorClassIdentifier: 
+  name_: start1
+  source: 0
+  text_writer: {fileID: 0}
+  text: "Oh hey there, little robot!\r\nYou got my script? ...\r\n<H>Does it even
+    understand words..?</H>\r<O lamp/>\nUm, do you have the script, for me, from
+    the Company?\r\n<H>This really isn't working isn't it... talking to a robotic
+    trash bin...</H>\r\nI said, do <I>you</I>, have, the <I>script</I>, for <I>me</I>,
+    from the <I>Company</I>? ... ...\r\nI guess not, then...\r\nOh wait, <O lamp/>
+    wait a second, let me look for it, ..., <O lamp/> here it is: <O img letter1/>
+    do you recognize this?\r\nThey sent me this weeks ago, told me I got a narrator
+    role for some weird typing game. <O lamp/>\r\nDo you recognize the <I>T</I> here?
+    ... ...\r\n<O lamp/>\r\n<H>Can't believe I'm doing this...\r\nwhy would I think
+    this trash bin's got fancy <B>image recognition</B>...</H> <O npc random/>\r\nAh,
+    well... <O lamp/> guess I'll have to wait for another day\r"
+  previous: _mainmenu
+  next:
+  - ... start2
+  music: {fileID: 11400000, guid: ff945d10d0f33fc47a07739786feb10f, type: 2}
+  background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}
+  slope_min_max: {x: -0.2, y: 0.2}

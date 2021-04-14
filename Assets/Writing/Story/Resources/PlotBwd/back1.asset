@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: back1
+  m_EditorClassIdentifier: 
+  name_: back1
+  source: 0
+  text_writer: {fileID: 0}
+  text: "Or not, <O stump/> it goes back and some poor inspector-director-guy would
+    have to waste <I>precious minutes</I> listening <O stump/> to bullsh*t on birds...
+    talking to <O stump/> worms.\nWait, isn't my original goal to get back at them?
+    For letting me wait a week for <I>absolutely nothing</I>? Then it's better to
+    let them hear!\r Screw them!\n... ...\r\n<I>Of course</I> the script's inside
+    it, <I>of course</I>, <O stump/> why would it be <I>anywhere</I> else?\r\n"
+  previous: back2
+  next:
+  - _endless
+  music: {fileID: 11400000, guid: 5cf3c63f9978e7042847b299e605a6b8, type: 2}
+  background: {fileID: 2100000, guid: 88febf8a68d05164ab2a1b2b4a548d65, type: 2}
+  slope_min_max: {x: -0.3, y: 0}

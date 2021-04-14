@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e605533d030a0408fbb64405f77198, type: 3}
+  m_Name: continueA4
+  m_EditorClassIdentifier: 
+  name_: continueA4
+  source: 0
+  text_writer: {fileID: 0}
+  text: "What next? <O lamp/> I think that's where I left off last time I rewrote
+    this story.\r\n<H>I think I had a version where the worm met some grown moth
+    or butterfly, but then the lifecycle thing would make no sense: how could they
+    coexist at the same time?\r\nOh God... what do I say next... should've made a
+    draft before this...\r\nWould those people hear it? I mean, I think the A4 only
+    records relevant lines, so my rambling wouldn't be get in there...\r\nOr not,
+    it goes back and some poor inspector-director-guy would have to waste <I>precious
+    minutes</I> listening to bullsh*t on birds... talking to worms. </H>\r\nWait,
+    isn't my original goal to get back at them? <O lamp/> For letting me wait a week
+    for <I>absolutely nothing</I>? <O lamp/> Then it's better to let them hear!\r
+    Screw them!\nBut it feels weird that my rambling is heard by... anyone else...<O
+    lamp/> feels almost <I>embarracing</I>... Haha, I'm probably punishing myself
+    more than getting back at them...<O npc random/>\r\nLet's just ramble on...<O
+    lamp/> can we ramble on? <O lamp/> Hmm... \r"
+  previous: continueA3
+  next:
+  - the worm replied... continueA5_1
+  - the worm came out... continueA5_2
+  - the worm... continueA5_3
+  - look for written draft continueA5_4
+  - ... continueA5_5
+  music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
+  background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}
+  slope_min_max: {x: -0.15, y: 0.15}

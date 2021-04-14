@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190373802c45e524cac073a7ca3bae5f, type: 3}
+  m_Name: walking
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -634939176177036431, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: 1291146559195552984, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: -7249430012921954511, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: -7458982963906360784, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: 2828206487452950891, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: 7343336956831097597, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: -6623594924128421203, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  - {fileID: 7791262819983882499, guid: 51cee49d787a5c14fb3c5a240380f2e2, type: 3}
+  segments:
+  - name: 1
+    script: 'gotta hurry!
+
+      you can speed things up with some speedrunning tricks
+
+      what
+      are those tricks?
+
+      well they''re simple
+
+      you see them often in
+      videos and stuff
+
+      but I''m not telling
+
+      oh, here''s a hint:
+
+      if
+      you''re talking to me here
+
+      then you''re doing it wrong!
+
+      go and
+      try!'
+  randomize: 0

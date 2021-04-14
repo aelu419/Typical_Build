@@ -25,6 +25,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vsconfig
 
 # Gradle cache directory
 .gradle/
@@ -59,6 +60,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+/[Bb]uild/*
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -76,5 +78,3 @@ crashlytics-build.properties
 /[Aa]ssets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 fmod.log
 fmod_editor.log
-
-/[Bb]uild/*

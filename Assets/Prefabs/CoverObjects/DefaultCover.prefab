@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5559796323733581113}
   - component: {fileID: 8779102454610293047}
   m_Layer: 0
-  m_Name: Default
-  m_TagString: Untagged
+  m_Name: DefaultCover
+  m_TagString: Cover Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

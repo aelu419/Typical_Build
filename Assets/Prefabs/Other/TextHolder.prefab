@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1925491490069020056}
   m_Layer: 0
   m_Name: TextHolder
-  m_TagString: Untagged
+  m_TagString: Word Block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,7 +224,6 @@ MonoBehaviour:
   word_status: 
   light_intensity: 0
   mats: []
-  mats_: []
   typed: 0
 --- !u!61 &1925491490069020056
 BoxCollider2D:

@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 5194422867556566936}
   m_Layer: 0
   m_Name: Portal
-  m_TagString: Untagged
+  m_TagString: Cover Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,8 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     description: 
-    destination: {fileID: 0}
-    sp: 0
+    destination: 
     control: 0
   is_from_cover_prefab: 0
   word_block: {fileID: 0}

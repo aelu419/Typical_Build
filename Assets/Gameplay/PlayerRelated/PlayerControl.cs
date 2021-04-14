@@ -268,7 +268,7 @@ public class PlayerControl : MonoBehaviour
                             destination.y = block_top + charSize / 2f + 0.1f;
                             //yMax = Mathf.Max(block_top + charSize / 2f + 0.1f, yMax);
                             in_climb = true;
-                            Debug.LogError(destination.y);
+                            Debug.Log("Start climb to: " + destination.y);
                             break;
                         }
                     }

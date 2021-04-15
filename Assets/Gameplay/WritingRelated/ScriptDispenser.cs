@@ -57,6 +57,7 @@ public class ScriptDispenser : ScriptableObject
                 }
             }
 
+            first_load = false;
             string script_state = _current.name_;
             script_state += "\n\tfirst load:" + AnalyticsSessionInfo.sessionFirstRun;
             script_state += ", \n\tpassed tutorial: " + GameSave.PassedTutorial;
@@ -173,9 +174,14 @@ public class ScriptDispenser : ScriptableObject
     }
 
     public static event System.Action OnLoad;
-
-    public void LoadScripts()
+    public static void Load()
     {
+        OnLoad?.Invoke();
+    }
+
+    private void LoadScripts()
+    {
+        Debug.Log("Start loading scripts");
         ScriptObjectScriptable[] fwd = Resources.LoadAll<ScriptObjectScriptable>("PlotFwd/");
         ScriptObjectScriptable[] bwd = Resources.LoadAll<ScriptObjectScriptable>("PlotBwd/");
         List<ScriptObjectScriptable> all = new List<ScriptObjectScriptable>();
@@ -195,7 +201,7 @@ public class ScriptDispenser : ScriptableObject
         all.AddRange(main_menus);
 
         scripts = all.ToArray();
-        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        //System.Text.StringBuilder sb = new System.Text.StringBuilder();
         //sb.Append("loaded scripts:\n\t");
         
         //Debug.Log("all raw text:\n\t" + raw.ToString());
@@ -214,21 +220,8 @@ public class ScriptDispenser : ScriptableObject
 
     private void OnEnable()
     {
-        LoadScripts();
-        //GameSave.ClearSave();
         OnLoad = LoadScripts;
-        /*List<ScriptObjectScriptable> all = Parse();
-        all.AddRange(init_scripts);
-        scripts = all.ToArray();
-
-        foreach (ScriptObjectScriptable s in scripts)
-        {
-            Debug.Log("script loaded: " + s.name_);
-        }*/
-
+        first_load = true;
         load_mode = true;
-        //_current = null;
-        _ = CurrentScript;
-        first_load = false;
     }
 }

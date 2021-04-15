@@ -41,6 +41,7 @@ public class MusicManager : MonoBehaviour
         beat = 0.0f;
         BeatLength = 1.0f / (BPM / 60.0f);
         EventManager.Instance.OnScriptLoaded += LoadSong;
+        
     }
 
     private void LoadSong(ScriptObjectScriptable current)
@@ -76,7 +77,10 @@ public class MusicManager : MonoBehaviour
 
     private void OnDisable()
     {
-        playing.enabled = false;
+        if (playing != null)
+        {
+            playing.enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -84,7 +88,10 @@ public class MusicManager : MonoBehaviour
     {
         timer += Time.deltaTime;
         beat = timer / 60.0f * BPM;
-        transform.position = CameraController.Instance.transform.position;
+        if (CameraController.Instance != null)
+        {
+            transform.position = CameraController.Instance.transform.position;
+        }
 
     }
 

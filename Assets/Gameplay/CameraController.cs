@@ -188,7 +188,7 @@ public class CameraController : MonoBehaviour
     {
         OnFirstFrame += () =>
         {
-            transform.position = new Vector3(root.x, root.y);
+            transform.position = new Vector3(root.x, root.y + 2);
         };
     }
 

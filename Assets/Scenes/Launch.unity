@@ -411,6 +411,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  banks:
+  - Master
+  - Master.strings
 --- !u!114 &418500108
 MonoBehaviour:
   m_ObjectHideFlags: 0

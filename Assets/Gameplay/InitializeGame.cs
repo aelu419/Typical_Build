@@ -1,10 +1,13 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class InitializeGame : MonoBehaviour
 {
     public AnimationCurve fade;
+    [FMODUnity.BankRef]
+    public List<string> banks;
 
     // kickstart game initialization
     public void Initialize()
@@ -31,7 +34,17 @@ public class InitializeGame : MonoBehaviour
     private IEnumerator LoadAsync()
     {
         ScriptDispenser.Load();
-        GetComponent<FMODUnity.StudioListener>().enabled = true; // this kickstarts FMOD bank loading
+        foreach (string b in banks)
+        {
+            FMODUnity.RuntimeManager.LoadBank(b, true);
+            Debug.Log("Loaded bank " + b);
+        }
+        while (!FMODUnity.RuntimeManager.HasBankLoaded("Master Bank"))
+        {
+            yield return null;
+        }
+        // -deprecated-: fmod loading now kickstarted via script
+        // GetComponent<FMODUnity.StudioListener>().enabled = true;
         AsyncOperation load = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
         while (!load.isDone)
         {

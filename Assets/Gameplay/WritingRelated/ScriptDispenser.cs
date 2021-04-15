@@ -201,6 +201,7 @@ public class ScriptDispenser : ScriptableObject
         all.AddRange(main_menus);
 
         scripts = all.ToArray();
+        Debug.Log("Scripts loaded: " + scripts.Length);
         //System.Text.StringBuilder sb = new System.Text.StringBuilder();
         //sb.Append("loaded scripts:\n\t");
         

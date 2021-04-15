@@ -120,8 +120,10 @@ public class PlayerControl : MonoBehaviour
             //Debug.LogError(spawn_root.x + ", " + spawn_root.y);
             rigid.position = new Vector2(
                spawn_root.x,
-               spawn_root.y + charSize / 2f + 1f
+               spawn_root.y + charSize / 2f + 0.1f
                );
+
+            rigid.velocity = Vector2.zero;
 
             destination = new Vector3(
                 rigid.position.x, 
@@ -146,6 +148,7 @@ public class PlayerControl : MonoBehaviour
         {
             OnFirstFrame();
             OnFirstFrame = null;
+            return;
         }
 
         //basic variables for the rest of the method

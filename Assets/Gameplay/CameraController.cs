@@ -182,9 +182,25 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    event System.Action OnFirstFrame;
+
+    public void SpawnAtRoot(Vector2 root)
+    {
+        OnFirstFrame += () =>
+        {
+            transform.position = new Vector3(root.x, root.y);
+        };
+    }
+
     // Update is called once per frame
     void Update()
     {
+        if (OnFirstFrame != null)
+        {
+            OnFirstFrame();
+            OnFirstFrame = null;
+            return;
+        }
         cam.orthographicSize = base_size * zoom;
 
         float cam_h = 2f * cam.orthographicSize;

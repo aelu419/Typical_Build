@@ -146,6 +146,7 @@ public class ReadingManager: MonoBehaviour
                         br = true;
                         player.direction = true;
                         player.SpawnAtRoot(words[i].R);
+                        CameraController.Instance.SpawnAtRoot(words[i].R);
                         break;
                     }
                 }
@@ -170,6 +171,7 @@ public class ReadingManager: MonoBehaviour
                         br = true;
                         player.direction = false;
                         player.SpawnAtRoot(words[i].L);
+                        CameraController.Instance.SpawnAtRoot(words[i].L);
                         break;
                     }
                 }

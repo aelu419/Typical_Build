@@ -259,7 +259,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 156272709403431993, guid: 45a79bedff4bbcb47b61d53f76272196, type: 3}
+  m_Sprite: {fileID: 156272709403431993, guid: 29b9f2ce887d08945b65f2d9aa32a846, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
   descriptor: 
   sound: event:/Other/DoorOpen
   initial_sprites:
-  - {fileID: 156272709403431993, guid: 45a79bedff4bbcb47b61d53f76272196, type: 3}
-  - {fileID: 211480458311449745, guid: 45a79bedff4bbcb47b61d53f76272196, type: 3}
-  - {fileID: 7786561793181381354, guid: 45a79bedff4bbcb47b61d53f76272196, type: 3}
-  - {fileID: 5544787930664310919, guid: 45a79bedff4bbcb47b61d53f76272196, type: 3}
+  - {fileID: 156272709403431993, guid: 29b9f2ce887d08945b65f2d9aa32a846, type: 3}
+  - {fileID: 211480458311449745, guid: 29b9f2ce887d08945b65f2d9aa32a846, type: 3}
+  - {fileID: 7786561793181381354, guid: 29b9f2ce887d08945b65f2d9aa32a846, type: 3}
+  - {fileID: 5544787930664310919, guid: 29b9f2ce887d08945b65f2d9aa32a846, type: 3}

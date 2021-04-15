@@ -15,6 +15,8 @@ public class NPCBehaviour : MonoBehaviour
     public float normalized_bubble_x;
     public float bubble_y;
 
+    public float hint_size_decrement; //the size of the hint text at bottom
+
     public float float_speed, float_magnitude;
 
     string[] script;
@@ -61,7 +63,8 @@ public class NPCBehaviour : MonoBehaviour
         else
         {
             //jump up and down
-            sprite.sprite = content.sprites[sprite_rand_index];
+            if (content != null && content.sprites != null)
+                sprite.sprite = content.sprites[sprite_rand_index];
             System.Func<float, float> parabola = x => -4 * x * x + 4 * x;
             float duration = 0.5f, height = 0.3f;
             float t = 0.0f;
@@ -176,7 +179,8 @@ public class NPCBehaviour : MonoBehaviour
         index++;
         if (index < script.Length)
         {
-            bubble_text.GetComponent<TextMeshPro>().text = script[index] + "\n[Enter]";
+            float hint_size = bubble_text.GetComponent<TextMeshPro>().fontSize - hint_size_decrement;
+            bubble_text.GetComponent<TextMeshPro>().text = script[index] + "\n<size="+hint_size+">[Enter]</size>";
         }
         else
         {

@@ -5,10 +5,10 @@ using TMPro;
 
 public class Portal : MonoBehaviour
 {
-    public PortalData data;
+    [HideInInspector] public PortalData data;
     public bool is_from_cover_prefab;
-    public TextMeshPro word_block;
-    public Animator portal_animator; //the important parameter is 'open' (bool)
+    [HideInInspector] public TextMeshPro word_block;
+    [HideInInspector] public Animator portal_animator; //the important parameter is 'open' (bool)
 
     public string descriptor;
     [FMODUnity.EventRef]

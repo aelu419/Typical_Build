@@ -56,7 +56,7 @@ public class PortalManager : MonoBehaviour
                 if (Application.platform == RuntimePlatform.WebGLPlayer)
                 {
                     //webgl does not support application quitting!
-                    if (!pd.Equals(ScriptDispenser.QUIT))
+                    if (!pd.destination.Equals(ScriptDispenser.QUIT))
                     {
                         destinations.Add(pd);
                     }

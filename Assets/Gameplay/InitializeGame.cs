@@ -39,7 +39,7 @@ public class InitializeGame : MonoBehaviour
             FMODUnity.RuntimeManager.LoadBank(b, true);
             Debug.Log("Loaded bank " + b);
         }
-        while (!FMODUnity.RuntimeManager.HasBankLoaded("Master Bank"))
+        while (!FMODUnity.RuntimeManager.HasBankLoaded("Master"))
         {
             yield return null;
         }

@@ -45,6 +45,10 @@ public class InitializeGame : MonoBehaviour
         }
         // -deprecated-: fmod loading now kickstarted via script
         // GetComponent<FMODUnity.StudioListener>().enabled = true;
+
+        //load scripts
+        ScriptDispenser.Load();
+
         AsyncOperation load = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
         while (!load.isDone)
         {

@@ -29,6 +29,13 @@ public class PureAmbient : CustomSong
 
     public override void Start()
     {
-        player.StartCoroutine(whisper_instrument.Iterate());
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            //whisper_instrument.PlayDirect();
+        }
+        else
+        {
+            player.StartCoroutine(whisper_instrument.Iterate());
+        }
     }
 }

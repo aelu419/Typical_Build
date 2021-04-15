@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using FMOD;
-using FMODUnity;
 
 [CreateAssetMenu(menuName = "Typical Customs/Songs/Piano")]
 public class Piano : PureAmbient
@@ -23,7 +20,7 @@ public class Piano : PureAmbient
 
     IEnumerator PianoRoutine()
     {
-        FMOD.Studio.EventInstance note = RuntimeManager.CreateInstance(piano);
+        FMOD.Studio.EventInstance note = FMODUnity.RuntimeManager.CreateInstance(piano);
         while (player.enabled)
         {
             note.setParameterByName("pan", Random.value * 2.0f - 1.0f);
@@ -35,7 +32,7 @@ public class Piano : PureAmbient
             note.start();
             note.release();
 
-            yield return new WaitForSeconds(7.5f + Random.value * 5);
+            yield return new WaitForSeconds(12.5f + Random.value * 8);
         }
         yield return null;
     }

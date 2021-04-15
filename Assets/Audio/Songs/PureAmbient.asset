@@ -17,4 +17,4 @@ MonoBehaviour:
   whisper: event:/Ambient/Spatial
   whisper_fluctuation_amplitude: 0.186
   whisper_flucuation_speed: 0.63
-  whisper_gain_master: 0.292
+  whisper_gain_master: 0.379

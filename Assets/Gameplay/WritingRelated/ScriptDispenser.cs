@@ -202,8 +202,8 @@ public class ScriptDispenser : ScriptableObject
 
         scripts = all.ToArray();
         Debug.Log("Scripts loaded: " + scripts.Length);
-        //System.Text.StringBuilder sb = new System.Text.StringBuilder();
-        //sb.Append("loaded scripts:\n\t");
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        sb.Append("loaded scripts:\n\t");
         
         //Debug.Log("all raw text:\n\t" + raw.ToString());
         //feed raw text into generators
@@ -214,9 +214,9 @@ public class ScriptDispenser : ScriptableObject
                 s.text_writer.input = raw.ToString();
                 //Debug.Log("sample generated text: " + s.Text);
             }
-            //sb.Append(s.name_+", ");
+            sb.Append(s.name_+", ");
         }
-        //Debug.Log(sb);
+        Debug.Log(sb);
     }
 
     private void OnEnable()

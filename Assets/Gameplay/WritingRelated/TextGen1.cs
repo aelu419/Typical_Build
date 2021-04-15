@@ -15,10 +15,7 @@ public class TextGen1 : Writer
             {
                 str += m.Run(Mathf.CeilToInt(Random.value * 15f) + 5) + ' ';
                 
-            }catch(System.Exception _)
-            {
-
-            }
+            } finally { }
         }
         //add scoring, selecting, and concatenating
         return str;

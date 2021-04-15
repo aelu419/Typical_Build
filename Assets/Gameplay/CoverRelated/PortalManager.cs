@@ -52,7 +52,19 @@ public class PortalManager : MonoBehaviour
             for (int i = 0; i < current.next.Length; i++)
             {
                 //Debug.Log("fetching portal destination: " + current.next[i]);
-                destinations.Add(PortalData.Fetch(current.next[i]));
+                PortalData pd = PortalData.Fetch(current.next[i]);
+                if (Application.platform == RuntimePlatform.WebGLPlayer)
+                {
+                    //webgl does not support application quitting!
+                    if (!pd.Equals(ScriptDispenser.QUIT))
+                    {
+                        destinations.Add(pd);
+                    }
+                }
+                else
+                {
+                    destinations.Add(PortalData.Fetch(current.next[i]));
+                }
             }
         }
     }

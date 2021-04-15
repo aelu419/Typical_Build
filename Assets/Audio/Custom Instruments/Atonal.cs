@@ -17,18 +17,21 @@ public class Atonal : ContinuousInstrument
         Debug.Log("Atonal instrument active");
         fmod_event = FMODUnity.RuntimeManager.CreateInstance(fmod_event_address);
         fmod_event.start();
+        float t = 0;
         while (song.enabled)
         {
-            //subsequent frames
-            float noisy = GetNoisyGain();
-            fmod_event.setVolume(noisy);
-            fmod_event.set3DAttributes(
-                FMODUnity.RuntimeUtils.To3DAttributes(MusicManager.Instance.transform)
-            );
+            t += Time.deltaTime;
+            if (t > 1)
+            {
+                //update per second
+                float noisy = GetNoisyGain(t);
+                fmod_event.setVolume(noisy);
+                t = 0;
+            }
             yield return null;
         }
         Debug.Log("Atonal instrument inactive");
-        fmod_event.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        fmod_event.stop(STOP_MODE.ALLOWFADEOUT);
         yield return null;
     }
 }

@@ -13,15 +13,11 @@ MonoBehaviour:
   m_Name: Confrontation
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  enabled: 1
-  whisper: event:/Ambient/Cave1
+  enabled: 0
+  whisper: event:/Ambient/Cave
   whisper_fluctuation_amplitude: 0.323
   whisper_flucuation_speed: 0.69
   whisper_gain_master: 0.115
-  ambient: event:/Ambient/Cave2
-  ambient_fluctuation_amplitude: 0.315
-  ambient_flucuation_speed: 0.62
-  ambient_gain_master: 0.085
   drums:
   - event:/ShortNotes/Timpani_samples-01
   - event:/ShortNotes/Timpani_samples-02

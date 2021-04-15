@@ -34,11 +34,11 @@ public class ContinuousInstrument
         this.gain_master = gain_master;
     }
 
-    public float GetNoisyGain()
+    public float GetNoisyGain(float delta)
     {
         float theta = UnityEngine.Random.value * Mathf.PI * 2.0f;
         
-        noise_coord += noise_velocity * new Vector2(Mathf.Cos(theta), Mathf.Sin(theta));
+        noise_coord += noise_velocity * delta * new Vector2(Mathf.Cos(theta), Mathf.Sin(theta));
 
 
         //output -1 ~ 0

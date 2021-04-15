@@ -14,12 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   enabled: 0
-  whisper: event:/Ambient/ContinuousWhisper
+  whisper: event:/Ambient/Spatial
   whisper_fluctuation_amplitude: 0.076
   whisper_flucuation_speed: 1.56
   whisper_gain_master: 0.357
-  ambient: event:/Ambient/Spatial
-  ambient_fluctuation_amplitude: 0.338
-  ambient_flucuation_speed: 0.4
-  ambient_gain_master: 0.384
   piano: event:/ShortNotes/IsaiahChordSamples

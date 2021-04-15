@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: PureAmbient
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  whisper: event:/Ambient/ContinuousWhisper
+  enabled: 0
+  whisper: event:/Ambient/Spatial
   whisper_fluctuation_amplitude: 0.186
   whisper_flucuation_speed: 0.63
   whisper_gain_master: 0.292
-  ambient: event:/Ambient/Spatial
-  ambient_fluctuation_amplitude: 0.283
-  ambient_flucuation_speed: 0.49
-  ambient_gain_master: 0.54

@@ -402,7 +402,7 @@ MonoBehaviour:
       Value: 9264
       HasValue: 1
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     Logging:
       Value: 0
@@ -414,13 +414,13 @@ MonoBehaviour:
       Value: Desktop
       HasValue: 1
     SpeakerMode:
-      Value: 3
+      Value: 6
       HasValue: 1
     VirtualChannelCount:
       Value: 128
       HasValue: 1
     RealChannelCount:
-      Value: 16
+      Value: 32
       HasValue: 1
     DSPBufferLength:
       Value: 0

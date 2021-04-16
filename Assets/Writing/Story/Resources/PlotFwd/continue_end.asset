@@ -29,7 +29,7 @@ MonoBehaviour:
     own, I think it could tell that I'm starting the actual thing...\r\n\u2003\r\n"
   previous: continueA4
   next:
-  - read the script start1
+  - read the script start1_clone
   - don't read it pre_endless
   music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
   background: {fileID: 2100000, guid: 0882bd794af0a20408af42f955cde607, type: 2}

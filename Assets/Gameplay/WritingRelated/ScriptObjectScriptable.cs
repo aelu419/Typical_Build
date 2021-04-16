@@ -72,10 +72,13 @@ public class ScriptObjectScriptable : ScriptableObject
 
     private void OnEnable()
     {
-        text = text.Replace("\u2026", "...");
-        text = text.Replace('\u2019', '\'');
-        text = text.Replace('\u201C', '\"');
-        text = text.Replace('\u201D', '\"');
+        if (text != null && text.Length != 0)
+        {
+            text = text.Replace("\u2026", "...");
+            text = text.Replace('\u2019', '\'');
+            text = text.Replace('\u201C', '\"');
+            text = text.Replace('\u201D', '\"');
+        }
     }
 }
 

@@ -179,7 +179,7 @@ public class ScriptDispenser : ScriptableObject
         OnLoad?.Invoke();
     }
 
-    private void LoadScripts()
+    public void LoadScripts()
     {
         Debug.Log("Start loading scripts");
         ScriptObjectScriptable[] fwd = Resources.LoadAll<ScriptObjectScriptable>("PlotFwd/");
@@ -221,6 +221,7 @@ public class ScriptDispenser : ScriptableObject
 
     private void OnEnable()
     {
+        Debug.Log("Script Dispenser Initiated");
         OnLoad = LoadScripts;
         first_load = true;
         load_mode = true;

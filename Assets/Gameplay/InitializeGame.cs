@@ -42,7 +42,7 @@ public class InitializeGame : MonoBehaviour
     // kickstart game initialization
     public void Initialize()
     {
-        GetComponent<UnityEngine.UI.Button>().enabled = false;
+        GetComponent<UnityEngine.UI.Button>().interactable = false;
         StartCoroutine(Fade());
     }
 

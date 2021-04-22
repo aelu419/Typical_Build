@@ -53,7 +53,7 @@ public class Claw : MonoBehaviour
         else if (player_anim.GetCurrentAnimatorStateInfo(1).IsName("FinishClimb"))
         {
             _continuous.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            _continuous.release();
+            //_continuous.release();
         }
 
         //time cap to prevent glitch at spawn

@@ -9,6 +9,7 @@ public class PauseMenu : MonoBehaviour
     [HideInInspector] public UnityEngine.UI.Button[] buttons;
 
     public Color normal, deplete;
+    UnityEngine.UI.Button resume, mute, save, quit;
 
     private void OnEnable()
     {
@@ -30,6 +31,10 @@ public class PauseMenu : MonoBehaviour
         }
     }
     public void Resume() {
+        if (resume != null)
+        {
+            resume.interactable = false;
+        }
         EventManager.Instance.Game_Paused = false;
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -51,14 +56,17 @@ public class PauseMenu : MonoBehaviour
 
         foreach (UnityEngine.UI.Button b in buttons)
         {
+            b.interactable = true;
             switch (b.gameObject.name)
             {
                 case "MuteButton":
+                    mute = b;
                     b.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text
                     = GameSave.Muted ? "Unmute" : "Mute";
                     break;
 
                 case "SaveButton":
+                    save = b;
                     b.gameObject.SetActive(!(
                         scene.Equals(ScriptDispenser.MAINMENU) 
                         || scene.Equals(ScriptDispenser.TUTORIAL)
@@ -66,11 +74,13 @@ public class PauseMenu : MonoBehaviour
                     break;
 
                 case "QuitButton":
+                    quit = b;
                     b.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text =
                         scene.Equals(ScriptDispenser.MAINMENU) ? "Quit" : "Quit to Menu";
                     break;
 
                 default:
+                    resume = b;
                     break;
             }
 
@@ -85,30 +95,17 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Muting game....");
         MusicManager.Instance.Mute(!GameSave.ToggleMute());
 
-        foreach (UnityEngine.UI.Button b in buttons)
-        {
-            if (b.gameObject.name.Equals("MuteButton"))
-            {
-                //Debug.Log("mute button changing -> " + (GameSave.Muted ? "Unmute" : "Mute"));
-                b.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text
+        mute.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text
                     = GameSave.Muted ? "Unmute" : "Mute";
-            }
-        }
     }
 
     public void saveGame()
     {
         GameSave.SaveProgress();
-        foreach (UnityEngine.UI.Button b in buttons)
-        {
-            if (b.gameObject.name.Equals("SaveButton"))
-            {
-                UnityEngine.UI.Text t = b.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>();
-                t.text = "Saved";
-                t.color = deplete;
-                b.interactable = false;
-            }
-        }
+        UnityEngine.UI.Text t = save.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>();
+        t.text = "Saved";
+        t.color = deplete;
+        save.interactable = false;
     }
 
     public void quitGame()
@@ -124,5 +121,6 @@ public class PauseMenu : MonoBehaviour
             EventManager.Instance.TransitionTo(ScriptDispenser.MAINMENU, false);
             Time.timeScale = 1.0f;
         }
+        quit.interactable = false;
     }
 }

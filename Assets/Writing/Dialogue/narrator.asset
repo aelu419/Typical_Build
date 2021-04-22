@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: narrator
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: -267108659321401178, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 6495718189872017935, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 5802036049879401569, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: -906029365395904993, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 7047090797191019503, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 9087207327684497215, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 7047090797191019503, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: -906029365395904993, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 5802036049879401569, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: 6495718189872017935, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
-  - {fileID: -267108659321401178, guid: 2c512b3c31c4512419cfff34fc3fecde, type: 3}
+  - {fileID: 7047090797191019503, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: -906029365395904993, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: 5802036049879401569, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: 6495718189872017935, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: -267108659321401178, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: -267108659321401178, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: 6495718189872017935, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: 5802036049879401569, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
+  - {fileID: -906029365395904993, guid: 798c2c2d578ff2c4a88e653080239714, type: 3}
   segments:
-  - name: 1
+  - name: 
     script: 'Seems like you''ve finished the game!
 
       Hope your hands are still

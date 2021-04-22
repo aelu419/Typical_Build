@@ -15,7 +15,7 @@ MonoBehaviour:
   name_: _mainmenu
   source: 0
   text_writer: {fileID: 0}
-  text: <O img title/> <O lamp/> <O grass /> <O npc narrator1/> <O grass /> <O npc
+  text: <O img title/> <O lamp/> <O grass /> <O npc narrator/> <O grass /> <O npc
     credits/>
   previous: 
   next:

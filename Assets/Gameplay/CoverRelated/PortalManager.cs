@@ -15,6 +15,9 @@ public class PortalManager : MonoBehaviour
     public List<PortalData> destinations;
     public List<GameObject> active_portals;
 
+    event System.Action cheat;
+    public bool enable_cheating;
+
     private static KeyCode[] alphabet =
     {
         KeyCode.A, KeyCode.B, KeyCode.C, KeyCode.D, KeyCode.E, KeyCode.F,
@@ -37,6 +40,12 @@ public class PortalManager : MonoBehaviour
         EventManager.Instance.OnBackPortalOpen += OnBackPortalOpen;
         EventManager.Instance.OnBackPortalClose += OnBackPortalClose;
         EventManager.Instance.OnScriptLoaded += Configure;
+
+        if (enable_cheating)
+            cheat += () => 
+            EventManager.Instance.TransitionTo(
+                ScriptableObjectManager.Instance.ScriptManager.CurrentScript.name_, false
+                );
     }
 
     private void Configure(ScriptObjectScriptable current)
@@ -148,6 +157,16 @@ public class PortalManager : MonoBehaviour
                     registeredListening = new KeyCode[] { };
                     return;
                 }
+            }
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.Backspace))
+        {
+            if (cheat != null)
+            {
+                Debug.Log("Evoke Leap");
+                cheat();
+                cheat = null;
             }
         }
     }

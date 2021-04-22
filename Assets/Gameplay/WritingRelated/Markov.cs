@@ -73,50 +73,23 @@ public class Markov
     //generate sentence of up to length words. the sentence will terminate upon certain puncuations
     public string Run(int length)
     {
-        //pick first word from corpus
-        string initial_state = initial_states[Mathf.FloorToInt(Random.value * initial_states.Count)]+' ';
-        string window = initial_state.Substring(0, size);
 
         //generate up to length words
         int reprompt = 25;
         System.Tuple<string, float> best_sentence = new System.Tuple<string, float>("", -100);
         for (int sentence = 0; sentence < reprompt; sentence++)
         {
-            bool early_termination = false;
-            System.Text.StringBuilder result = new System.Text.StringBuilder(length * 10);
-            for (int i = 0; i < length && !early_termination; i++)
+            try
             {
-                //generate new word
-                char next;
-                do
+                System.Tuple<string, float> run = SingleSentence(length);
+                if (run.Item2 > best_sentence.Item2)
                 {
-                    next = NextLetter(window);
-                    if (next != '\0')
-                    {
-                        result.Append(next);
-                        window = window.Substring(1) + next;
-                    }
-                    //terminate sentence if certain symbols are reached
-                    if (END_OF_LINE.Contains(next) || next == '\0')
-                    {
-                        //Debug.Log("terminating line early: " + next);
-                        early_termination = true;
-                        break;
-                    }
-                } while (next != ' ' && result.Length < length * 20);
+                    best_sentence = run;
+                }
             }
-            //if this is reached, then the sentence has not terminated by puncutation
-            //punctuation will be manually added
-            result.Remove(result.Length - 1, 1);
-            result.Append(END_OF_LINE[Mathf.FloorToInt(Random.value * END_OF_LINE.Count)]);
-
-            string r = result.ToString();
-            r = Regex.Replace(r, @"\s+", " ");
-
-            System.Tuple<string, float> scored = ScoreSentence(r);
-            if (scored.Item2 > best_sentence.Item2)
+            finally
             {
-                best_sentence = scored;
+                
             }
         }
 
@@ -211,6 +184,46 @@ public class Markov
 
         return new System.Tuple<string, float>(s, s.Length - penalties);
     }
+
+    private System.Tuple<string, float> SingleSentence(int length)
+    {
+        //pick first word from corpus
+        string initial_state = initial_states[Mathf.FloorToInt(Random.value * initial_states.Count)] + ' ';
+        string window = initial_state.Substring(0, size);
+
+        bool early_termination = false;
+        System.Text.StringBuilder result = new System.Text.StringBuilder(length * 10);
+        for (int i = 0; i < length && !early_termination; i++)
+        {
+            //generate new word
+            char next;
+            do
+            {
+                next = NextLetter(window);
+                if (next != '\0')
+                {
+                    result.Append(next);
+                    window = window.Substring(1) + next;
+                }
+                //terminate sentence if certain symbols are reached
+                if (END_OF_LINE.Contains(next) || next == '\0')
+                {
+                    //Debug.Log("terminating line early: " + next);
+                    early_termination = true;
+                    break;
+                }
+            } while (next != ' ' && result.Length < length * 20);
+        }
+        //if this is reached, then the sentence has not terminated by puncutation
+        //punctuation will be manually added
+        result.Remove(result.Length - 1, 1);
+        result.Append(END_OF_LINE[Mathf.FloorToInt(Random.value * END_OF_LINE.Count)]);
+
+        string r = result.ToString();
+        r = Regex.Replace(r, @"\s+", " ");
+
+        return ScoreSentence(r);
+    } 
 
     private char NextLetter(string state)
     {

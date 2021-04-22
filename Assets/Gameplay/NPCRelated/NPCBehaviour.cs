@@ -45,9 +45,11 @@ public class NPCBehaviour : MonoBehaviour
 
     bool is_talking;
     const int UPDATES_PER_FRAME = 5;
+    Vector3 cached_transform;
     public IEnumerator Talk()
     {
-        if (!is_talking && content != null && !content.randomize && content.sprites.Length > 1)
+        if (is_talking || content == null) yield break;
+        if (!content.randomize && content.sprites.Length > 1)
         {
             is_talking = true;
             for(int i = 1; i < content.sprites.Length; i++)
@@ -62,21 +64,22 @@ public class NPCBehaviour : MonoBehaviour
         }
         else
         {
-            //jump up and down
             if (content != null && content.sprites != null)
                 sprite.sprite = content.sprites[sprite_rand_index];
+            //parabola for height over time
             System.Func<float, float> parabola = x => -4 * x * x + 4 * x;
             float duration = 0.5f, height = 0.3f;
             float t = 0.0f;
-            Vector3 cached = transform.position;
+            //initiate jump "animation"
+            transform.localPosition = cached_transform;
             while (t < duration)
             {
-                transform.position = cached + new Vector3(
+                transform.localPosition = cached_transform + new Vector3(
                     0, parabola(t / duration) * height, 0);
                 t += Time.deltaTime;
                 yield return null;
             }
-            transform.position = cached;
+            transform.localPosition = cached_transform;
         }
         is_talking = false;
     }
@@ -194,6 +197,7 @@ public class NPCBehaviour : MonoBehaviour
         bubble.gameObject.SetActive(true);
         engaged = true;
         is_talking = false;
+        cached_transform = transform.localPosition;
         StartCoroutine(Talk());
     }
 

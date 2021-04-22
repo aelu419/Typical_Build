@@ -21,7 +21,7 @@ MonoBehaviour:
   next:
   - new game start1
   - still need tutorial? _tutorial
-  - endless _endless
+  - endless _endless_from_menu
   - continue, but irl _quit
   music: {fileID: 11400000, guid: 60a77ee9a65865d429d3efa3de888a17, type: 2}
   background: {fileID: 2100000, guid: c464e0f0a275ba747960164c5dac62f3, type: 2}

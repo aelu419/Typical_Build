@@ -21,7 +21,7 @@ public class InputGate : MonoBehaviour
 
     public bool backspace_typable
     {
-        get { return backspace_blockers.Count == 0 && !EventManager.Instance.Game_Paused; }
+        get { return backspace_blockers == null || backspace_blockers.Count == 0 && !EventManager.Instance.Game_Paused; }
     }
 
     private void OnEnable()

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{258a0d0a-cb8a-4bb6-8a55-72db08aaf217}">
+		<property name="assetPath">
+			<value>TypeWriter/typewriter_ring-03.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.78367346938775506</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88a49f2f-844f-4222-b315-5b8c38b4228f}</destination>
+		</relationship>
+	</object>
+</objects>

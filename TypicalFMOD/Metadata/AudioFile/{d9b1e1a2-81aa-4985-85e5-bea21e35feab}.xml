@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d9b1e1a2-81aa-4985-85e5-bea21e35feab}">
+		<property name="assetPath">
+			<value>TypeWriter/typewriter_step-05.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.23510204081632652</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{88a49f2f-844f-4222-b315-5b8c38b4228f}</destination>
+		</relationship>
+	</object>
+</objects>

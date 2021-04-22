@@ -6,7 +6,6 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool gamePaused = false;
     public GameObject pauseMenuUI;
-    public Texture2D hover_cursor, click_cursor;
     [HideInInspector] public UnityEngine.UI.Button[] buttons;
 
     public Color normal, deplete;
@@ -31,16 +30,12 @@ public class PauseMenu : MonoBehaviour
         }
     }
     public void Resume() {
-        Cursor.SetCursor(hover_cursor, Vector2.zero, CursorMode.ForceSoftware);
         EventManager.Instance.Game_Paused = false;
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         gamePaused = false;
-
-
     }
     void Pause() {
-        Cursor.SetCursor(click_cursor, Vector2.zero, CursorMode.ForceSoftware);
         EventManager.Instance.Game_Paused = true;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;

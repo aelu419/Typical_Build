@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1e7ad9b9-18a9-40fd-a466-5fbe47b00c13}">
+		<property name="name">
+			<value>Bluntness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4939d29e-759e-458b-a07c-451c7b138eb5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0cf276e7-a2b0-480b-b3ac-cc382a6ac41d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0cf276e7-a2b0-480b-b3ac-cc382a6ac41d}">
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

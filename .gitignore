@@ -78,3 +78,8 @@ crashlytics-build.properties
 /[Aa]ssets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 fmod.log
 fmod_editor.log
+
+# FMOD Local Project
+/TypicalFMOD/.cache/*
+/TypicalFMOD/.user/*
+/TypicalFMOD/.unsaved/*

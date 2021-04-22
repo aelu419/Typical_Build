@@ -24,6 +24,8 @@ public class Claw : MonoBehaviour
         player_anim = player.GetComponent<Animator>();
         claw_anim = GetComponent<Animator>();
 
+        _continuous = FMODUnity.RuntimeManager.CreateInstance(continuous);
+
         hit_playable = false;
         extension = 0.0f;
         time = 0.0f;
@@ -35,10 +37,10 @@ public class Claw : MonoBehaviour
         bool in_climb = player_anim.GetBool("in_climb");
         if (in_climb && !claw_anim.GetBool("in_climb"))
         {
-            _continuous = FMODUnity.RuntimeManager.CreateInstance(continuous);
             _continuous.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(transform));
             _continuous.start();
         }
+        _continuous.setVolume(GameSave.Muted ? 0 : 1);
         claw_anim.SetBool("in_climb", in_climb);
 
         if (!in_climb 

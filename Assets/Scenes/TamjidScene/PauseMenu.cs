@@ -7,7 +7,9 @@ public class PauseMenu : MonoBehaviour
     public static bool gamePaused = false;
     public GameObject pauseMenuUI;
     public Texture2D hover_cursor, click_cursor;
-    public UnityEngine.UI.Button[] buttons;
+    [HideInInspector] public UnityEngine.UI.Button[] buttons;
+
+    public Color normal, deplete;
 
     private void OnEnable()
     {
@@ -76,6 +78,12 @@ public class PauseMenu : MonoBehaviour
                 default:
                     break;
             }
+
+            if (b.IsActive())
+            {
+                UnityEngine.UI.Text t = b.GetComponentInChildren<UnityEngine.UI.Text>();
+                t.color = normal;
+            }
         }
     }
     public void muteGame() {
@@ -96,6 +104,16 @@ public class PauseMenu : MonoBehaviour
     public void saveGame()
     {
         GameSave.SaveProgress();
+        foreach (UnityEngine.UI.Button b in buttons)
+        {
+            if (b.gameObject.name.Equals("SaveButton"))
+            {
+                UnityEngine.UI.Text t = b.gameObject.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>();
+                t.text = "Saved";
+                t.color = deplete;
+                b.interactable = false;
+            }
+        }
     }
 
     public void quitGame()

@@ -17,22 +17,19 @@ MonoBehaviour:
   text_writer: {fileID: 0}
   text: 'Who do you <O npc hostile/> think we are? <O stump/> How much effort do
     you think <O npc hostile/> I put into this--hell, do you even know what effort
-    is? Have you worked a <B>day</B> of your life? <O stump/> <O npc hostile/> You
-    just know how to eat, and eat, and when you stop eating <O npc hostile/> you
-    just cause <B>trouble</B>!"
+    is? <O lamp/> Have you worked a <B>day</B> of your life? <O lamp/> <O stump/>
+    <O npc hostile/> You just know how to eat, and eat, and when you stop eating
+    <O npc hostile/> you just cause <B>trouble</B>!"
+
+    ... <O lamp/>
 
     ...
 
-    ...
-
-    "I''ve heard <B>stories</B>,
-    <O npc hostile/> my friend. Some say you''ll fall asleep and another mind takes
-    over. You''ll know how to fly the instant you get out, but are you--the worm
-    you--born with that knowledge? Or did anyone teach you to fly? <O stump/> The
-    only <O npc hostile/> explanation is: this other spirit who is born with flight
-    knowledge takes over. ...
-
-'
+    "I''ve
+    heard <B>stories</B>, <O npc hostile/> my friend. Some say you''ll fall asleep
+    and another mind takes over. <O lamp/> You''ll know how to fly the instant you
+    get out, but are you--the worm you--born with that knowledge? <O stump/> <O lamp/>
+    Or did anyone teach you to fly?'
   previous: back3
   next:
   - _endless

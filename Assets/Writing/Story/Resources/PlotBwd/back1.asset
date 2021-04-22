@@ -17,10 +17,11 @@ MonoBehaviour:
   text_writer: {fileID: 0}
   text: "Or not, <O stump/> it goes back and some poor inspector-director-guy would
     have to waste <I>precious minutes</I> listening <O stump/> to bullsh*t on birds...
-    talking to <O stump/> worms.\nWait, isn't my original goal to get back at them?
-    For letting me wait a week for <I>absolutely nothing</I>? Then it's better to
-    let them hear!\r Screw them!\n... ...\r\n<I>Of course</I> the script's inside
-    it, <I>of course</I>, <O stump/> why would it be <I>anywhere</I> else?\r\n"
+    <O lamp/> talking to <O stump/> worms. <O lamp/>\nWait, isn't my original goal
+    to get back at them? For letting me wait a week for <I>absolutely nothing</I>?
+    Then it's better to let them hear!\r Screw them!\n... <O lamp/> ...\r <O lamp/>\n<I>Of
+    course</I> the script's inside it, <I>of course</I>, <O stump/> why would it
+    be <I>anywhere</I> else?\r\n"
   previous: back2
   next:
   - _endless

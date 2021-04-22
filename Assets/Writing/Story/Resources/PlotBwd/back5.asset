@@ -15,22 +15,23 @@ MonoBehaviour:
   name_: back5
   source: 0
   text_writer: {fileID: 0}
-  text: 'What even is <O npc hostile/> going on? First that letter, then this...
-    <I>helmet-can-machine-thing</I>, <O stump/>
+  text: 'What even is <O npc hostile/> going on? <O lamp/> First that letter, then
+    this... <I>helmet-can-machine-thing</I>, <O stump/>
 
-    what do they want from me? <O
-    stump/>
+    what do they want from
+    me? <O stump/>
 
-    Can it see, or hear?
+    Can it see, or hear? <O lamp/>
 
-    It''s all a trick isn''t it, just to see
-    me make myself look like a dumbass...
+    It''s all a trick isn''t
+    it, just to see me make myself look like a dumbass... <O lamp/>
 
-    I think I wasn''t even qualified,
-    they''re <O npc hostile/> just trolling me with this... <O stump/>
+    I think
+    I wasn''t even qualified, they''re <O npc hostile/> just trolling me with this...
+    <O stump/> <O lamp/>
 
-    Let me
-    read the letter again, <O npc hostile/> just to see if I misread anything
+    Let me read the letter again, <O npc hostile/> just
+    to see if I misread anything
 
 '
   previous: _credits

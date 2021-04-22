@@ -15,8 +15,9 @@ MonoBehaviour:
   name_: _credits
   source: 0
   text_writer: {fileID: 0}
-  text: <O npc credits/> And that's it, that's how you, or I, or the narrator, or
-    the robot, got out of this game. It's all very confusing...
+  text: <O lamp/> <O npc credits/> <O lamp/> And that's it, that's how you, or I,
+    or the narrator, or the robot, got out of this game. <O lamp/> It's all very
+    confusing...
   previous: _mainmenu
   next:
   - _endless

@@ -15,12 +15,12 @@ MonoBehaviour:
   name_: back3
   source: 0
   text_writer: {fileID: 0}
-  text: "There was something <O stump/> of a frame already in place, <O npc hostile/>
-    but it looked nothing like a cocoon.\r\nThe worm had been working on it for <I>hours</I>,
-    and the initial excitement for starting something life changing (literally) was
-    starting to wear off. <O npc hostile/>\r\n... ... ... \r\nthe sun was like an
-    overseer, <O stump/> not a motivator... and the repetitive work adds a layer
-    of hypnosis on top of the nausea.\r\n"
+  text: "There was something <O stump/> <O lamp/> of a frame already in place, <O
+    npc hostile/> but it looked nothing like a cocoon.\r <O lamp/>\nThe worm had
+    been working on it for <I>hours</I>, and the initial excitement for starting
+    something life changing (literally) was starting to wear off. <O lamp/> <O npc
+    hostile/>\r\n... ... ... \r\nthe sun was like an overseer, <O stump/> not a motivator...
+    <O lamp/> and the repetitive work adds a layer of hypnosis on top of the nausea.\r\n"
   previous: back4
   next:
   - _endless
